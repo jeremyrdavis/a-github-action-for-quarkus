@@ -1,5 +1,7 @@
-# quarkus-github-action
+# a-github-action-for-quarkus
 A GitHub Action file that checks out, packages, builds and pushes a Docker container
+
+I originally gave this repo the name, quarkus-github-action, which is the name of a Quarkivers plugin for creating GitHub Actions with Quarkus.  The old repo is still live with a link to this one.
 
 ## Description
 The build uses Temeurin Java 21.  Check with actions/setup-java@v4 to change the version.
@@ -12,4 +14,3 @@ Drop the .github directory into your Quarkus project.  Add your Docker hub usern
 ![actions-secrets-values](actions-secrets-values.png)
 
 
-# a-github-action-for-quarkus
